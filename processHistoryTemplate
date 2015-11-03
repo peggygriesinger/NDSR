@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mets xmlns="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:premis="info:lc/xmlns/premis-v2"
+    xmlns:pbcore="http://www.pbcore.org/PBCore/PBCoreNamespace.html"
+    xmlns:revtmd="http://nwtssite.nwts.nara/schema/"
+    xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://purl.org/dc/terms/ 
+    http://dublincore.org/schemas/xmls/qdc/2008/02/11/dcterms.xsd info:lc/xmlns/premis-v2 
+    http://www.loc.gov/standards/premis/v2/premis-v2-2.xsd http://www.pbcore.org/PBCore/PBCoreNamespace.html 
+    http://pbcore.org/xsd/pbcore-2.0.xsd http://nwtssite.nwts.nara/schema/ 
+    http://www.archives.gov/preservation/products/reVTMD.xsd">
+    <amdSec>
+        <techMD ID="techMD_001">
+            <mdWrap MDTYPE="PREMIS:OBJECT">
+                <xmlData>
+                    <premis:object xsi:type="premis:file">
+                        <premis:objectIdentifier>
+                            <premis:objectIdentifierType></premis:objectIdentifierType>
+                            <premis:objectIdentifierValue></premis:objectIdentifierValue>
+                        </premis:objectIdentifier>
+                        <premis:objectCharacteristics>
+                            <premis:compositionLevel>0</premis:compositionLevel>
+                            <premis:format>
+                                <premis:formatDesignation>
+                                    <premis:formatName></premis:formatName>
+                                </premis:formatDesignation>
+                                <premis:formatRegistry>
+                                    <premis:formatRegistryName></premis:formatRegistryName>
+                                    <premis:formatRegistryKey></premis:formatRegistryKey>
+                                </premis:formatRegistry>
+                            </premis:format>
+                        </premis:objectCharacteristics>
+                        <premis:linkingEventIdentifier>
+                            <premis:linkingEventIdentifierType></premis:linkingEventIdentifierType>
+                            <premis:linkingEventIdentifierValue></premis:linkingEventIdentifierValue>
+                        </premis:linkingEventIdentifier>
+                        <premis:linkingEventIdentifier>
+                            <premis:linkingEventIdentifierType></premis:linkingEventIdentifierType>
+                            <premis:linkingEventIdentifierValue></premis:linkingEventIdentifierValue>
+                        </premis:linkingEventIdentifier>
+                    </premis:object>
+                </xmlData>
+            </mdWrap>
+        </techMD>
+        <techMD ID="tech_002">
+            <mdWrap MDTYPE="OTHER" OTHERMDTYPE="PBCORE">
+                <xmlData>
+                    <pbcore:pbcoreInstantiationDocument>
+                        <pbcore:instantiationIdentifier source=""></pbcore:instantiationIdentifier>
+                        <pbcore:instantiationLocation></pbcore:instantiationLocation>
+                        <pbcore:instantiationGenerations></pbcore:instantiationGenerations>
+                        <pbcore:instantiationColors></pbcore:instantiationColors>
+                        <pbcore:instantiationAnnotation annotationType=""><!-- Used to describe information written on the physical object or an associated object, such as a carrier. @annotationType specifies where the transcribed information came from.  --></pbcore:instantiationAnnotation>
+                    </pbcore:pbcoreInstantiationDocument>
+                </xmlData>
+            </mdWrap>
+        </techMD>
+        <digiprovMD ID="digiprov_001">
+            <mdWrap MDTYPE="PREMIS:EVENT">
+                <xmlData>
+                    <premis:event>
+                        <premis:eventIdentifier>
+                            <premis:eventIdentifierType></premis:eventIdentifierType>
+                            <premis:eventIdentifierValue></premis:eventIdentifierValue>
+                        </premis:eventIdentifier>
+                        <premis:eventType><!-- i.e., Digitization, Assessment --></premis:eventType>
+                        <premis:eventDateTime>2015</premis:eventDateTime>
+                        <premis:linkingAgentIdentifier>
+                            <premis:linkingAgentIdentifierType></premis:linkingAgentIdentifierType>
+                            <premis:linkingAgentIdentifierValue></premis:linkingAgentIdentifierValue>
+                        </premis:linkingAgentIdentifier>
+                        <premis:linkingObjectIdentifier>
+                            <premis:linkingObjectIdentifierType></premis:linkingObjectIdentifierType>
+                            <premis:linkingObjectIdentifierValue></premis:linkingObjectIdentifierValue>
+                        </premis:linkingObjectIdentifier>
+                    </premis:event>
+                </xmlData>
+            </mdWrap>
+        </digiprovMD>
+        <digiprovMD ID="digiprov_002">
+            <mdWrap MDTYPE="PREMIS:AGENT">
+                <xmlData>
+                    <premis:agent>
+                        <premis:agentIdentifier>
+                            <premis:agentIdentifierType></premis:agentIdentifierType>
+                            <premis:agentIdentifierValue></premis:agentIdentifierValue>
+                        </premis:agentIdentifier>
+                        <premis:agentType>Digitization Environment<!-- automatically generated fixed value --></premis:agentType>
+                        <premis:agentExtension>
+                            <premis:environment>
+                                <premis:environmentPurpose>Process History<!-- automatically generated fixed value --></premis:environmentPurpose>
+                                <premis:environmentExtension>
+                                    <revtmd:reVTMD>
+                                        <revtmd:object>
+                                            <revtmd:filename></revtmd:filename>
+                                            <revtmd:identifier></revtmd:identifier>
+                                            <revtmd:mimetype></revtmd:mimetype>
+                                            <revtmd:captureHistory>
+                                                <revtmd:digitizationEngineer></revtmd:digitizationEngineer>
+                                                <!-- Here you list the tools used to create the object being described in this record.
+                                                For example, if you are creating a record for a low-quality viewing copy, you would describe
+                                                all of the tools used to get from the higher quality preservation copy to the viewing copy. -->
+                                                <revtmd:codingProcessHistory>
+                                                    <revtmd:role></revtmd:role>
+                                                    <revtmd:description></revtmd:description>
+                                                    <revtmd:manufacturer></revtmd:manufacturer>
+                                                    <revtmd:modelName></revtmd:modelName>
+                                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                                    <revtmd:signal></revtmd:signal>
+                                                    <revtmd:settings></revtmd:settings>
+                                                </revtmd:codingProcessHistory>
+                                                <revtmd:codingProcessHistory>
+                                                    <revtmd:role></revtmd:role>
+                                                    <revtmd:description></revtmd:description>
+                                                    <revtmd:manufacturer></revtmd:manufacturer>
+                                                    <revtmd:modelName></revtmd:modelName>
+                                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                                    <revtmd:signal></revtmd:signal>
+                                                    <revtmd:settings></revtmd:settings>
+                                                </revtmd:codingProcessHistory>
+                                                <revtmd:codingProcessHistory>
+                                                    <revtmd:role></revtmd:role>
+                                                    <revtmd:description></revtmd:description>
+                                                    <revtmd:manufacturer></revtmd:manufacturer>
+                                                    <revtmd:modelName></revtmd:modelName>
+                                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                                    <revtmd:signal></revtmd:signal>
+                                                    <revtmd:settings></revtmd:settings>
+                                                </revtmd:codingProcessHistory>
+                                                <revtmd:codingProcessHistory>
+                                                    <revtmd:role></revtmd:role>
+                                                    <revtmd:description></revtmd:description>
+                                                    <revtmd:manufacturer></revtmd:manufacturer>
+                                                    <revtmd:modelName></revtmd:modelName>
+                                                    <revtmd:serialNumber></revtmd:serialNumber>
+                                                    <revtmd:signal></revtmd:signal>
+                                                    <revtmd:settings></revtmd:settings>
+                                                </revtmd:codingProcessHistory>
+                                            </revtmd:captureHistory>
+                                        </revtmd:object>
+                                    </revtmd:reVTMD>
+                                </premis:environmentExtension>
+                            </premis:environment>
+                        </premis:agentExtension>
+                    </premis:agent>
+                </xmlData>
+            </mdWrap>
+        </digiprovMD>
+    </amdSec>
+    
+    <fileSec>
+        <fileGrp/>
+    </fileSec>
+    <structMap>
+        <div/>
+    </structMap>
+</mets>
