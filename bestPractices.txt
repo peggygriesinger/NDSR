@@ -1,0 +1,73 @@
+#Best Practices
+
+Agent (REQUIRED, REPEATABLE)
+This element is used to describe a person involved in the migration process of the materials. Only include those individuals who are deemed relevant for conservation purposes. Only select values from the controlled list.
+
+When adding to the controlled list, the format of the name should be “FirstName LastName”. In the case of two individuals sharing the same full name, use the format “FirstName MiddleName LastName”. Should further clarification be deemed necessary, use the format “FirstName MiddleName LastName (BirthYear)”.
+
+	Date (REQUIRED, NOT REPEATABLE)
+This element is used to record the date when the selected agent performed the action being recorded.
+Adhere to the ISO 8601 date format when constructing dates. This means the following format:
+		YYYY-MM-DD
+	At least year must be recorded, however month and day can be omitted if not known.
+
+	Type (REQUIRED, NOT REPEATABLE)
+This element is used to describe the type of action taken by the agent. It is limited to the following values:
+Assessment - use to record date for condition checking
+Creation - use to record the date that the initial iteration of the component came into existence
+Migration - use to record the date that any subsequent iterations of the component came into existence 
+[Note: This element was not decisively resolved during discussion of the best practices. There is still some disagreement about what terms should be used to describe date type and if date type is even necessary.]
+
+Color (REQUIRED, NOT REPEATABLE)
+This element is used to record whether a video is color, black and white, or both. Accepted values are:
+	Black & White
+	Color
+	Color and Black & White
+
+Sound (REQUIRED, NOT REPEATABLE)
+This element is used to record whether or not an object has sound. Accepted values are:
+	Silent
+	Silent and Sound
+	Sound
+
+Level of Certainty (REQUIRED, NOT REPEATABLE)
+This element is used to describe the level of guaranteed accuracy of the provided metadata. In some cases, conservators will have very little information about the process history of an artwork, and will make educated inferences based on their knowledge of historical audiovisual production methods. In other cases, conservators will have been closely involved with an artwork from very early on in its creation and thus can be very certain that they know the artwork’s exact process history. This element is a way of indicating that the metadata is an educated inference made without direct knowledge of the process history, or that the metadata is an accurate representation of the process history written by someone with direct knowledge of the process history. The accepted values are:
+High – An agent directly involved with the process history recorded the process history in detail.
+Medium – An agent directly involved with the process history partially recorded the process history with some detail missing.
+Low – No agent directly involved with the process history recorded the process history. The creator of the metadata is making educated inferences.
+
+Label Info/Attached Ephemera (OPTIONAL, REPEATABLE)
+This element allows users to transcribe information affixed to either a carrier or the media itself. Text should be transcribed exactly as it appears on the label, with any necessary clarifying notes added using square brackets “[ ]”. 
+
+	Source (REQUIRED, NOT REPEATABLE)
+This element is used to describe the source of the label info. It is limited to the following values:
+Housing
+Insert
+Media
+
+Tool (REQUIRED, REPEATABLE)
+This is a wrapper element to contain the elements related to a specific device. Nothing can be entered directly in this element. At least one device must be recorded for every process history document. Device and all of its subelements are repeated for every new device in a process history device chain. 
+
+Role (REQUIRED, NOT REPEATABLE)
+Role refers to the action that the device performed in the process history. Examples include “capture software”, “time based corrector”, and “video sequencer”. Values are taken from a controlled list.  Each device can have only one role. If one device was used for multiple roles, create an entire new device element with its own corresponding role subelement for each different role performed. 
+
+Manufacturer (REQUIRED, NOT REPEATABLE)
+This element is used to record the entity primarily involved in the creation of the device. Values are taken from a controlled list.
+
+Model Name (REQUIRED, NOT REPEATABLE)
+This element is used to record the model name of the device used. Values are taken from a controlled list. 
+
+Serial Number (OPTIONAL, NOT REPEATABLE)
+This element is used to record the uniquely identifying serial number associated with the specific device used. Only use if certain this is the specific device used in the recorded instance.
+
+Description (OPTIONAL, NOT REPEATABLE)
+This element is a free text field only to be used if further explanation of a device is deemed necessary. It should be used rarely and only in extenuating circumstances. It should be avoided when it is possible to express the same information elsewhere in the record.
+
+Settings (OPTIONAL, NOT REPEATABLE)
+This element is used to record any changes to default settings that were made to the device that are deemed important to record for preservation purposes.
+
+Signal (OPTIONAL, NOT REPEATABLE)
+According to reVTMD: “describes any standardized audiovisual interface that is used to transmit the signal between tools or equipment.”
+
+Version (OPTIONAL, NOT REPEATABLE)
+This element is used to record the version number or name associated with the device being used, if applicable. For example, if Adobe Photoshop CS6 is the device being described, the version would be “CS6”. 
