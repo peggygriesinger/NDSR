@@ -1,0 +1,103 @@
+--Manufacturer--
+Accom
+Adobe
+Apple
+Arri
+Benchmark
+Blackmagic
+Canon
+Cintel
+Dell
+Flanders Scientific
+Fuji
+Genelec
+GoPro
+Hewlett Packard
+JBL
+JVC
+Kramer
+Leitch
+Microsoft
+Nikon
+Panasonic
+RED
+Samsung
+Scaniaty
+Sony
+Steinberg
+Tableau
+Tektronix
+Unknown
+
+--Model--
+1720
+1730
+6241
+8030A
+AD 100
+B1200I
+BR-DV3000
+BVM-D20FU
+BVU 950
+CSG-50B
+DPS-290
+DVW 8500
+Final Cut Pro
+HD10 AVA
+J-30
+RS-232C
+S1490LL/A
+SVO 5800
+SV3000W
+TC-L5 2BN
+Ultrakit & TD 2
+Unknown
+VS-1001
+
+--Role (Process History)--
+Analog to digital converter
+Camera
+Computer
+Frame delayer
+Monitor - Audio
+Monitor - CRT - Analog
+Monitor - CRT - Digital
+Monitor - LED
+Monitor - LCD
+Monitor - OLED
+Monitor - Waveform - Analog
+Monitor - Waveform - Digital
+Monitor - Vectorscope - Analog
+Monitor - Vectorscope - Digital
+Reproducer
+Scaler
+Scanner
+Source
+Switcher
+Software
+Timebase corrector
+Videotape recorder
+Writeblocker
+
+--Signal--
+AES/EBU
+Balanced
+Composite
+DVI
+HDMI
+HD-SDI
+IDE (SATA)
+IEEE 1394 (Firewire 400)
+IEEE 1394b (Firewire 800)
+Optical
+RS422
+SATA
+SCSI
+SDI
+Thunderbolt
+Unbalanced
+USB 2.0
+USB 3.0
+VGA
+YCbCR
+Y/C
