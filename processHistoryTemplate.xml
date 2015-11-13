@@ -50,7 +50,9 @@
                         <pbcore:instantiationLocation></pbcore:instantiationLocation>
                         <pbcore:instantiationGenerations></pbcore:instantiationGenerations>
                         <pbcore:instantiationColors></pbcore:instantiationColors>
-                        <pbcore:instantiationAnnotation annotationType=""><!-- Used to describe information written on the physical object or an associated object, such as a carrier. @annotationType specifies where the transcribed information came from.  --></pbcore:instantiationAnnotation>
+                        <pbcore:instantiationAnnotation annotationType="Sound"></pbcore:instantiationAnnotation>
+                        <pbcore:instantiationAnnotation annotationType="Channel"></pbcore:instantiationAnnotation>
+                        <pbcore:instantiationAnnotation annotationType=""><!-- Used to describe information written on the physical object ("Label Info") or an associated object, such as a carrier. @annotationType specifies where the transcribed information came from.  --></pbcore:instantiationAnnotation>
                     </pbcore:pbcoreInstantiationDocument>
                 </xmlData>
             </mdWrap>
@@ -89,6 +91,8 @@
                         <premis:agentExtension>
                             <premis:environment>
                                 <premis:environmentPurpose>Process History<!-- automatically generated fixed value --></premis:environmentPurpose>
+                                <premis:environmentNote><!-- use for "level of certainty" element --></premis:environmentNote>
+                                <premis:environmentNote>Direct Knowledge<!-- optional field to offer more detail about "level of certainty" value --></premis:environmentNote>
                                 <premis:environmentExtension>
                                     <revtmd:reVTMD>
                                         <revtmd:object>
